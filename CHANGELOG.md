@@ -1,0 +1,9 @@
+# Changelog
+
+This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
+
+## 1.0.0 (2021-04-28)
+
+Initial release.
+Blade v1.0 Support
+Current package support [Jam Icons 3.1.0](https://github.com/michaelampr/jam/releases/tag/3.1.0)
