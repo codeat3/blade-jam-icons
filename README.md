@@ -70,7 +70,7 @@ And even use inline styles:
 If you want to use the raw SVG icons as assets, you can publish them using:
 
 ```bash
-php artisan vendor:publish --tag=blade-jam --force
+php artisan vendor:publish --tag=blade-jam-icons --force
 ```
 
 Then use them in your views like:
