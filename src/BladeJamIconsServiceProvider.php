@@ -19,7 +19,6 @@ final class BladeJamIconsServiceProvider extends ServiceProvider
 
             $factory->add('jam-icons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
-
     }
 
     private function registerConfig(): void
