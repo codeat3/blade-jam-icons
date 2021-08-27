@@ -8,7 +8,6 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet) {
     $iconProcessor = new IconProcessor($tempFilepath, $iconSet);
     $iconProcessor
         ->optimize(pre: function ($svgEl) {
-            dump($svgEl->getAttribute('viewBox'));
             if(empty($svgEl->getAttribute('viewBox'))) {
                 $width = $svgEl->getAttribute('width');
                 $height = $svgEl->getAttribute('height');
