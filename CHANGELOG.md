@@ -2,6 +2,9 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 1.2.0 (2021-10-11)
+* synced with the latest commit of parent branch [michaelampr/jam](https://github.com/michaelampr/jam/commit/c8501b14e0480c8becac58a626e72502bca90084)
+
 ## 1.1.0 (2021-05-12)
 Added support for config file
 
