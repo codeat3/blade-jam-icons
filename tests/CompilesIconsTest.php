@@ -18,7 +18,7 @@ class CompilesIconsTest extends TestCase
 
         // Note: the empty class here seems to be a Blade components bug.
         $expected = <<<'SVG'
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -1.5 24 24" preserveAspectRatio="xMinYMin" fill="currentColor"><path d="M10 20.393c-5.523 0-10-4.477-10-10 0-5.522 4.477-10 10-10s10 4.478 10 10c0 5.523-4.477 10-10 10zm0-15a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -1.5 24 24" fill="currentColor"><path d="M10 20.393c-5.523 0-10-4.477-10-10 0-5.522 4.477-10 10-10s10 4.478 10 10c0 5.523-4.477 10-10 10zm0-15a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
             SVG;
 
         $this->assertSame($expected, $result);
@@ -30,7 +30,7 @@ class CompilesIconsTest extends TestCase
         $result = svg('jam-alert-f', 'w-6 h-6 text-gray-500')->toHtml();
 
         $expected = <<<'SVG'
-            <svg class="w-6 h-6 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="-2 -1.5 24 24" preserveAspectRatio="xMinYMin" fill="currentColor"><path d="M10 20.393c-5.523 0-10-4.477-10-10 0-5.522 4.477-10 10-10s10 4.478 10 10c0 5.523-4.477 10-10 10zm0-15a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+            <svg class="w-6 h-6 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="-2 -1.5 24 24" fill="currentColor"><path d="M10 20.393c-5.523 0-10-4.477-10-10 0-5.522 4.477-10 10-10s10 4.478 10 10c0 5.523-4.477 10-10 10zm0-15a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
             SVG;
 
         $this->assertSame($expected, $result);
@@ -42,7 +42,7 @@ class CompilesIconsTest extends TestCase
         $result = svg('jam-alert-f', ['style' => 'color: #555'])->toHtml();
 
         $expected = <<<'SVG'
-            <svg style="color: #555" xmlns="http://www.w3.org/2000/svg" viewBox="-2 -1.5 24 24" preserveAspectRatio="xMinYMin" fill="currentColor"><path d="M10 20.393c-5.523 0-10-4.477-10-10 0-5.522 4.477-10 10-10s10 4.478 10 10c0 5.523-4.477 10-10 10zm0-15a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+            <svg style="color: #555" xmlns="http://www.w3.org/2000/svg" viewBox="-2 -1.5 24 24" fill="currentColor"><path d="M10 20.393c-5.523 0-10-4.477-10-10 0-5.522 4.477-10 10-10s10 4.478 10 10c0 5.523-4.477 10-10 10zm0-15a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
             SVG;
 
         $this->assertSame($expected, $result);
@@ -56,7 +56,7 @@ class CompilesIconsTest extends TestCase
         $result = svg('jam-alert-f')->toHtml();
 
         $expected = <<<'SVG'
-            <svg class="awesome" xmlns="http://www.w3.org/2000/svg" viewBox="-2 -1.5 24 24" preserveAspectRatio="xMinYMin" fill="currentColor"><path d="M10 20.393c-5.523 0-10-4.477-10-10 0-5.522 4.477-10 10-10s10 4.478 10 10c0 5.523-4.477 10-10 10zm0-15a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+            <svg class="awesome" xmlns="http://www.w3.org/2000/svg" viewBox="-2 -1.5 24 24" fill="currentColor"><path d="M10 20.393c-5.523 0-10-4.477-10-10 0-5.522 4.477-10 10-10s10 4.478 10 10c0 5.523-4.477 10-10 10zm0-15a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
             SVG;
 
         $this->assertSame($expected, $result);
@@ -71,7 +71,7 @@ class CompilesIconsTest extends TestCase
         $result = svg('jam-alert-f', 'w-6 h-6')->toHtml();
 
         $expected = <<<'SVG'
-            <svg class="awesome w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="-2 -1.5 24 24" preserveAspectRatio="xMinYMin" fill="currentColor"><path d="M10 20.393c-5.523 0-10-4.477-10-10 0-5.522 4.477-10 10-10s10 4.478 10 10c0 5.523-4.477 10-10 10zm0-15a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
+            <svg class="awesome w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="-2 -1.5 24 24" fill="currentColor"><path d="M10 20.393c-5.523 0-10-4.477-10-10 0-5.522 4.477-10 10-10s10 4.478 10 10c0 5.523-4.477 10-10 10zm0-15a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>
             SVG;
 
         $this->assertSame($expected, $result);
